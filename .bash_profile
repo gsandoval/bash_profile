@@ -1,3 +1,20 @@
+alias git-tree="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative"
+alias gps="git push"
+alias gpst="git push --tags"
+alias gpl="git pull"
+alias gco="git checkout"
+alias gcm="git commit"
+alias gd="git diff"
+alias gl="git log"
+alias gs="git status"
+alias ga="git add"
+alias gm="git merge"
+alias gt="git tag --sort version:refname"
+alias gba="git branch -a"
+alias gb="git branch"
+alias gf="git fetch origin --tags --prune"
+alias gmno="git merge --no-ff"
+
 ec2_cert_path=/path/to/your/certs
 
 ec2search ()
