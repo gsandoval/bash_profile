@@ -121,7 +121,7 @@ ec2connect()
 
         echo "Connecting to $instance_name..."
         echo "ssh $username@$ip_address -i $ec2_cert_path$key_name.pem"
-        ssh $username@$ip_address -i $ec2_cert_path$key_name.pem
+        ssh $username@$ip_address -i "$ec2_cert_path$key_name.pem"
 }
 
 alias ec2-search=ec2search
